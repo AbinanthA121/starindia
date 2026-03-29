@@ -1,0 +1,40 @@
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-nav {
+  background: rgba(252, 249, 248, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.kinetic-shadow {
+  box-shadow: 0 8px 32px -4px rgba(28, 27, 27, 0.08);
+}
+
+.kinetic-bg {
+  background: linear-gradient(135deg, #ffd700 0%, #e9c400 100%);
+}
+
+.js-scroll-effects .scroll-reveal {
+  opacity: 0;
+  transform: translate3d(0, 48px, 0);
+  transition:
+    opacity 800ms cubic-bezier(0.22, 1, 0.36, 1) var(--scroll-delay, 0ms),
+    transform 800ms cubic-bezier(0.22, 1, 0.36, 1) var(--scroll-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.js-scroll-effects .scroll-reveal.scroll-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js-scroll-effects .scroll-reveal,
+  .js-scroll-effects .scroll-reveal.scroll-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

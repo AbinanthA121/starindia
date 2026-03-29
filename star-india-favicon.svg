@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Star India favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4bf"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#7a0f12"/>
+  <circle cx="32" cy="32" r="24" fill="url(#bg)"/>
+  <path fill="#7a0f12" d="M32 14l4.82 9.77 10.78 1.57-7.8 7.61 1.84 10.75L32 38.63l-9.64 5.07 1.84-10.75-7.8-7.61 10.78-1.57z"/>
+  <circle cx="32" cy="32" r="8" fill="none" stroke="#fff8e1" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="1.8" fill="#fff8e1"/>
+  <path d="M32 24v6M25 34l5-2M39 34l-5-2" stroke="#fff8e1" stroke-linecap="round" stroke-width="2.5"/>
+</svg>
